@@ -11,13 +11,13 @@
 ## Grading Outline
 
 
-Objects:
+Objects: complete
 
-Functions:
+Functions: complete except for one which is mostly complete
 
-Higher Order Functions:
+Higher Order Functions: mostly complete?
 
-Concepts:
+Concepts: significant progress
  
 
 

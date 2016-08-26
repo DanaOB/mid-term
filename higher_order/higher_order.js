@@ -7,7 +7,19 @@ var loop = function(collection, callback) {
 };
 
 // write your talkToUser function here:
-
+var talkToUser = function(prompts, promptType){
+	loop(prompt, function(thisPrompt){
+		if (promptType = 'log'){
+			console.log(thisPrompt);
+		}
+		if (promptType = 'alert'){
+			alert(thisPrompt);
+		}
+		if (promptType = 'prompt'){
+			prompt(thisPrompt);
+		}		
+	})
+}
 
 // Use this to test your talkToUser function:
 
@@ -22,3 +34,5 @@ var funFacts = [
 "Jupiter is the fastest spinning planet in our Solar System rotating on average once in just under 10 hours. "
 
 ];
+
+talkToUser(funfacts)
